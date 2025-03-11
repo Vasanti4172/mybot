@@ -8,7 +8,7 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 if "chat" not in st.session_state:
     st.session_state.chat = model.start_chat(history=[])
 
-st.title("MYBOT")
+st.title("👾MYBOT")
 st.write("Welcome to my chatbot!")
 
 if "messages" not in st.session_state:
